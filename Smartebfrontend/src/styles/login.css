@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #cfd5bd, #808772);
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-title {
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.app-container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.login-container {
+    background-color: #3f534a;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 14px rgba(0, 0, 0, 0.5);
+    width: 320px;
+    text-align: center;
+}
+
+.signup-label {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 16px;
+    background-color: #fff0f0;
+    transition: 0.3s;
+    outline: none;
+}
+
+.input-group input:focus {
+    background-color: #ffffff;
+    border: 2px solid #94c2ba;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.login-button, .submit-button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.login-button {
+    background-color: red;
+    color: white;
+}
+
+.submit-button {
+    background-color: #222;
+    color: white;
+}
+
+.login-button:hover {
+    background-color: darkred;
+    transform: scale(1.05);
+}
+
+.submit-button:hover {
+    background-color: #111;
+    transform: scale(1.05);
+}

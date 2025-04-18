@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #cfd5bd, #808772);
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header title styling */
+.header-title {
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+/* Container box for signup form */
+.signup-container {
+    background-color: #3f534a;
+    padding: 40px 30px;
+    border-radius: 14px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    width: 360px;
+    text-align: center;
+    border: 2px solid #94c2ba;
+}
+
+/* Form title */
+.signup-label {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    margin-bottom: 25px;
+}
+
+/* Input group layout */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+/* Label styles */
+.input-group label {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 17px;
+    color: white;
+    align-self: flex-start;
+    margin-bottom: 5px;
+}
+
+/* Input field styles */
+.input-group input,
+.input-group select {
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    background-color: #fff0f0;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+    background-color: white;
+    border: 2px solid #94c2ba;
+}
+
+/* Button section */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Buttons styling */
+.signup-button,
+.submit-button {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    width: 48%;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Red signup button */
+.signup-button {
+    background-color: red;
+    color: white;
+}
+
+.signup-button:hover {
+    background-color: darkred;
+    transform: scale(1.05);
+}
+
+/* Black submit button */
+.submit-button {
+    background-color: #222;
+    color: white;
+}
+
+.submit-button:hover {
+    background-color: #111;
+    transform: scale(1.05);
+}

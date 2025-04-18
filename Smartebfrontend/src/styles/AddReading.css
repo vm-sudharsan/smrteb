@@ -1,0 +1,49 @@
+.add-reading {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fefefe;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-reading h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .add-reading form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-reading input {
+    margin-bottom: 15px;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .add-reading input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .add-reading button {
+    padding: 10px 12px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-reading button:hover {
+    background-color: #0056b3;
+  }
+  

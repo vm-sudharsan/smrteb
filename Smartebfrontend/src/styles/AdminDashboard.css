@@ -1,0 +1,142 @@
+.admin-dashboard {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .admin-dashboard h2 {
+    text-align: center;
+    color: #1e3a8a; /* Blue-900 */
+    margin-bottom: 30px;
+  }
+  
+  /* Logout Button */
+  .logout-btn {
+    float: right;
+    padding: 8px 14px;
+    background-color: #ef4444; /* Red-500 */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .logout-btn:hover {
+    background-color: #b91c1c; /* Red-800 */
+  }
+  
+  /* Navigation buttons */
+  .navigation-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 25px 0;
+  }
+  
+  .navigation-buttons button {
+    background-color: #2563eb; /* Blue-600 */
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navigation-buttons button:hover {
+    background-color: #1e40af; /* Blue-800 */
+  }
+  
+  /* Search section */
+  .search-consumer {
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .search-consumer input {
+    width: 300px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    outline: none;
+  }
+  
+  .search-consumer button {
+    padding: 8px 16px;
+    background-color: #3b82f6;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-consumer button:hover {
+    background-color: #1d4ed8;
+  }
+  
+  /* Consumer Details Display */
+  .consumer-details {
+    background-color: #f1f5f9;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    color: #1e293b;
+  }
+  
+  .consumer-details h3 {
+    margin-bottom: 15px;
+    color: #0f172a;
+  }
+  
+  /* Consumer list */
+  .consumer-list {
+    margin-top: 30px;
+  }
+  
+  .consumer-list h3 {
+    color: #1e3a8a;
+    margin-bottom: 10px;
+  }
+  
+  .consumer-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .consumer-list li {
+    background-color: #f8fafc;
+    padding: 10px;
+    margin: 6px 0;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+  }
+  
+  /* Messages */
+  .success-message {
+    color: green;
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 600;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 600;
+  }
+  

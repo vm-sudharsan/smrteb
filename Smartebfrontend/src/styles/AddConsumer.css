@@ -1,0 +1,86 @@
+.add-consumer {
+    max-width: 1200px; /* Wider white frame */
+    margin: 60px auto;
+    padding: 60px 80px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .add-consumer h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #1e3a8a;
+  }
+  
+  .add-consumer form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .input-pair {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .input-pair input,
+  .input-pair select {
+    flex: 1;
+    min-width: 450px; /* Wider inputs */
+    max-width: 100%;
+  }
+  
+  .add-consumer input,
+  .add-consumer select {
+    width: 100%;
+    padding: 16px 20px;
+    font-size: 17px;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    background-color: #f8fafc;
+    transition: all 0.2s ease-in-out;
+    
+  }
+  
+  .add-consumer input:focus,
+  .add-consumer select:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+    outline: none;
+    background-color: #fff;
+  }
+  
+  .add-consumer button {
+    padding: 16px 40px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+    align-self: center;
+  }
+  
+  .add-consumer button:hover {
+    background-color: #1e40af;
+    transform: translateY(-1px);
+  }
+  
+  .add-consumer button:active {
+    transform: scale(0.98);
+  }
+  
